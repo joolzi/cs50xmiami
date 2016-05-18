@@ -12,5 +12,9 @@ fixStart('babble'): 'ba**le'
 */
 
 function fixStart(s) {
-  // write your solution here...
+  var str = "Babble babble babble bla bla bla";
+  var res = str.replace(/b/g, "*");
+
+  console.log(res);
 }
+fixStart('s');
