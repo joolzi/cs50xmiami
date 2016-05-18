@@ -17,5 +17,24 @@ For example:
 */
 
 function verbing(word) {
-  // write your solution here...
+
+  if(word.length > 3) {
+    if(word.endsWith("ing")){
+    var word = word.concat("ly");
+    console.log(word);
+    }
+
+  else {
+    var word = word.concat("ing");
+    console.log(word);
+    }
 }
+else {
+  console.log(word);
+}
+}
+
+
+verbing('swim');
+verbing('swimming');
+verbing('go');
