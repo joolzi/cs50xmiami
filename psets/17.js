@@ -10,3 +10,28 @@ Call that function for a few different scores and log the result to make sure it
 */
 
 // write your solution here...
+function pluralize(noun, number){
+  if (number > 1){
+      console.log(number + " " + noun.concat('s'));
+    }
+  else {
+    console.log(number +" "+ noun);
+  }
+}
+
+pluralize("goat", "5");
+pluralize("cat", "2");
+pluralize("camel", "0");
+
+
+// BONUS TO FINISH
+// if (noun = "sheep"){
+//   console.log(number + " " + "sheep");
+// }
+// if (noun = "goose"){
+//   console.log(number + " " + "geese");
+// }
+// if (noun = "fish"){
+//   console.log(number + " " + "fish");
+// }
+// else {
