@@ -11,3 +11,15 @@ http://www.mathsisfun.com/temperature-conversion.html
 */
 
 // write your solution here...
+
+var tempC = 28;
+
+var tempF = (tempC*9)/5+32;
+
+console.log(tempC + "°C is "+ tempF + "°F ");
+
+var tempF1 = 80;
+
+var tempC1 = ((tempF1-32)*5)/9;
+
+console.log(tempF1 + "°F is "+ tempC1 + "°C ");

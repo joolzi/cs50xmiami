@@ -13,5 +13,8 @@ Look up the JavaScript string reference to find methods which may be useful!
 */
 
 function mixUp(a, b) {
+  var a = "Bonjour"
+  var b = "World!"
+  var res1 = str.slice(1,5);
   // write your solution here...
 }

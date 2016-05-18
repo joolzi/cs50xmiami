@@ -10,3 +10,11 @@ Forgot how old someone is? Calculate it!
 */
 
 // write your solution here...
+
+var currentyear = 2016;
+
+var playerdate = 1982;
+
+var age = currentyear - playerdate;
+
+console.log("You are "+ age + " or " + (age + 1));

@@ -10,3 +10,11 @@ http://math2.org/math/geometry/circles.htm
 */
 
 // write your solution here...
+
+var radius = 4;
+
+var circ = (2*radius) * Math.PI;
+
+var area = Math.PI * Math.sqrt(radius);
+
+console.log("The circumference is "+ circ + " The area is " + area);

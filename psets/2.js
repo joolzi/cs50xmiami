@@ -12,3 +12,13 @@ Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no mo
 */
 
 // write your solution here...
+
+var age = 34;
+
+var max = 100;
+
+var amount = 42;
+
+var howmuch = (max - age)*amount;
+
+console.log("You will need "+ howmuch + " to last you until the ripe old age of " + max);
