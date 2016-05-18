@@ -11,3 +11,24 @@ and log the result to make sure it works.
 */
 
 // write your solution here...
+function helloWorld(code) {
+  switch (code){
+  case "es":
+    console.log("Hola, Mundo!");
+    break;
+  case "fr":
+    console.log("Bonjour, Monde!");
+    break;
+  case "th":
+    console.log("สวัสดีชาวโลก!");
+    break;
+  default:
+  console.log("Hello, World");
+  }
+}
+
+helloWorld("es");
+helloWorld("th");
+helloWorld("fr");
+helloWorld("xx");
+helloWorld("");
