@@ -12,3 +12,13 @@ Write a function named calculateSupply that:
 */
 
 // write your solution here...
+function calculateSupply(age, amount){
+  var maxage = 100;
+  var howmuch = (maxage - age)*Math.round(amount);
+
+console.log("You will need "+ howmuch + " to last you until the ripe old age of " + maxage);
+}
+
+calculateSupply ("42", "2.72");
+calculateSupply ("16", "3.16");
+calculateSupply ("24", "5");
