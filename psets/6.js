@@ -13,8 +13,11 @@ Look up the JavaScript string reference to find methods which may be useful!
 */
 
 function mixUp(a, b) {
-  var a = "Bonjour"
-  var b = "World!"
-  var res1 = str.slice(1,5);
-  // write your solution here...
+  var beginworda = a.substring(0, 2);
+  var beginwordb = b.substring(0, 2);
+  var endworda = a.slice(2);
+  var endwordb = b.slice(2);
+
+  console.log( beginwordb + endworda + "","" + beginworda + endwordb);
 }
+mixUp('Julie', 'Horekens');
