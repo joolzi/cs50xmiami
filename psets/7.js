@@ -17,4 +17,4 @@ function fixStart(s) {
 
   console.log(res);
 }
-fixStart('s');
+fixStart('s'); 
