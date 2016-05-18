@@ -13,4 +13,13 @@ Create a function called calcArea:
 - Calculate the area based on the radius, and output "The area is NN".
 */
 
-// write your solution here...
+function calcCircumfrence(radius){
+  var circumference = (2*radius) * Math.PI;
+  console.log("The circumference is "+ circumference);
+
+  var area = Math.PI * Math.sqrt(radius);
+  console.log("The area is "+ area);
+}
+
+calcCircumfrence(4.5);
+calcCircumfrence(6);
