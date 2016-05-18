@@ -16,5 +16,18 @@ For example:
 */
 
 function notBad(sentence) {
-  // write your solution here...
+  var not = sentence.search("not");
+  var bad = sentence.search("bad");
+
+if (not > 0 && bad > not) {
+  var sentenceafter = sentence.slice(0, not);
+  var sentenceafter = sentenceafter.concat("good");
+  console.log(sentenceafter);
 }
+else {
+  console.log(sentence);
+}
+}
+  notBad('This dinner is not that bad!');
+  notBad('This movie is not so bad!');
+  notBad('This dinner is bad!');
