@@ -6,4 +6,15 @@ The even/odd reporter
   and report that to the screen (e.g. "2 is even").
 */
 
-// write your solution here...
+function evenodd() {
+  for (var number = 0; number <= 20; number++) {
+    if ((number % 2) == 0) {
+      console.log( number + " is even");
+    }
+    else {
+      console.log( number + " is odd!");
+    }
+  }
+}
+
+evenodd();
