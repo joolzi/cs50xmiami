@@ -9,3 +9,12 @@ Create an array to hold your top choices (colors, presidents, whatever).
 */
 
 // write your solution here...
+function choices() {
+  var cities = ["Bangkok", "Paris", "Barcelona"]
+  var number = 1;
+  for (var i = 0; i < 3; i ++) {
+    console.log("My #" + number + " choice is " + cities[i]);
+    number++;
+  }
+}
+choices();
