@@ -18,3 +18,18 @@ Never forget another recipe!
 */
 
 // write your solution here...
+function Recipe() {
+
+var recipe = {
+  Title:"Julies's Yummy Mole",
+  Serves:"2",
+  ingredients: ["cinnamon", "cumin","cocoa"]
+};
+  console.log(recipe.Title);
+  console.log("Serves: " + recipe.Serves);
+  console.log("Ingredients: " );
+for ( var i = 0; i < 3; i++){
+  console.log(recipe.ingredients[i])
+}
+}
+Recipe();
