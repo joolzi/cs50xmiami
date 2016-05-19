@@ -9,3 +9,11 @@ Write a for loop that will iterate from 0 to 10.
 */
 
 // write your solution here...
+function multiply() {
+  for (var i = 0; i <= 10; i++) {
+    for (var j = 0; j <= 10; j++) {
+       console.log(i + " * " + j + " = " + (i * j));
+    }
+  }
+}
+multiply();
