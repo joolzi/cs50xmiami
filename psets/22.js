@@ -17,3 +17,30 @@ Keep track of which books you read and which books you want to read!
 */
 
 // write your solution here...
+function books() {
+
+var books = [
+  { Title : "The Hobbit",
+  Author : "J.R.R. Tolkein",
+  Alreadyread : false},
+
+  { Title : "To Kill A Mockingbird",
+  Author : "Harper Lee",
+  Alreadyread : true},
+
+  { Title : "Cars, Trucks and Things That Go",
+  Author :"Richard Scarry",
+  Alreadyread : false}
+];
+
+for (var i = 0 ; i < books.length; i++) {
+  if (books[i].Alreadyread == true ) {
+    console.log("You already read " + books[i].Title + " by " + books[i].Author);
+  }
+  else {
+    console.log("You still need to read " + books[i].Title + " by " + books[i].Author);
+  }
+}
+}
+
+books();
