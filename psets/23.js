@@ -11,3 +11,25 @@ It's like IMDB, but much much smaller!
 */
 
 // write your solution here...
+
+var movie = [
+  { title : "This is 40",
+  duration : "140",
+  stars : "Paul Rudd and Leslie Mann"},
+
+  { title : "The final cut",
+  duration : "120",
+  stars : "Robin Williams"},
+
+  { title : "Puff the Magic Dragon",
+  duration : "30",
+  stars : "Puff, Jackie, Living Sneezes"}
+];
+
+function movies() {
+for (var i = 0 ; i < movie.length; i++) {
+console.log(movie.title + " lasts for " + movie.duration + ". Stars:" + movie.stars);
+}
+}
+
+movies();
